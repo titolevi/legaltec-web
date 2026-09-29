@@ -1,0 +1,39 @@
+[22-Jul-2026 22:43:16 UTC] PHP Warning:  require(/home/c6ururfftniu/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/c6ururfftniu/public_html/index.php on line 14
+[22-Jul-2026 22:43:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/c6ururfftniu/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/c6ururfftniu/public_html/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/c6ururfftniu/public_html/index.php on line 14
+[22-Jul-2026 22:43:51 UTC] PHP Warning:  require(/home/c6ururfftniu/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/c6ururfftniu/public_html/index.php on line 14
+[22-Jul-2026 22:43:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/c6ururfftniu/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/c6ururfftniu/public_html/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/c6ururfftniu/public_html/index.php on line 14
+[22-Jul-2026 22:44:14 UTC] PHP Warning:  require(/home/c6ururfftniu/public_html/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/c6ururfftniu/public_html/index.php on line 14
+[22-Jul-2026 22:44:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/c6ururfftniu/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/c6ururfftniu/public_html/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/c6ururfftniu/public_html/index.php on line 14
+[22-Jul-2026 22:51:33 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/c6ururfftniu/legaltec-core/vendor/symfony/http-foundation/Response.php:393) in /home/c6ururfftniu/legaltec-core/vendor/symfony/http-foundation/Response.php:328
+Stack trace:
+#0 /home/c6ururfftniu/legaltec-core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(263): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():262}()
+#2 /home/c6ururfftniu/legaltec-core/vendor/symfony/http-foundation/Response.php(328): header()
+#3 /home/c6ururfftniu/legaltec-core/vendor/symfony/http-foundation/Response.php(407): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/c6ururfftniu/legaltec-core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(226): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/c6ururfftniu/legaltec-core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(203): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/c6ururfftniu/legaltec-core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(263): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():262}()
+#8 {main}
+  thrown in /home/c6ururfftniu/legaltec-core/vendor/symfony/http-foundation/Response.php on line 328
+[22-Jul-2026 22:51:41 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/c6ururfftniu/legaltec-core/vendor/symfony/http-foundation/Response.php:393) in /home/c6ururfftniu/legaltec-core/vendor/symfony/http-foundation/Response.php:328
+Stack trace:
+#0 /home/c6ururfftniu/legaltec-core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(263): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():262}()
+#2 /home/c6ururfftniu/legaltec-core/vendor/symfony/http-foundation/Response.php(328): header()
+#3 /home/c6ururfftniu/legaltec-core/vendor/symfony/http-foundation/Response.php(407): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/c6ururfftniu/legaltec-core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(226): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/c6ururfftniu/legaltec-core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(203): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/c6ururfftniu/legaltec-core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(263): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->{closure:Illuminate\Foundation\Bootstrap\HandleExceptions::forwardsTo():262}()
+#8 {main}
+  thrown in /home/c6ururfftniu/legaltec-core/vendor/symfony/http-foundation/Response.php on line 328
